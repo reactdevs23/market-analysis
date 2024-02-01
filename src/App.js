@@ -14,7 +14,7 @@ function App() {
       {
         icon: icon,
         title: "Analysis of Factors ",
-        info: `There are many companies in today's market that have "maskots" who act as icons for there overall brand image`,
+        info: `There are many companies in today's market that have "maskots" who act as icons for there overall brand image companies in today's market`,
         headerBg: "#8A6AD8",
         headerIconColor: "#000",
         shadowColor: "#000",
