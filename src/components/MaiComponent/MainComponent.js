@@ -32,6 +32,7 @@ const MainComponent = ({ heading, data }) => {
                 "--bg": el.headerBg,
                 "--shadowColor": el.shadowColor,
                 "--headerIconColor": el.headerIconColor,
+                "--borderColor": el.borderColor,
               }}
               key={id}
               className={`${styles.card} ${styles[`items-${data.length}`]}  ${

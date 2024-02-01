@@ -8,7 +8,7 @@ function App() {
     bgColor: "#fff",
     textColor: "#000",
     numberColor: "#000",
-    borderColor: "#000",
+
     heading: "The methods of <br/> <span>Market Analysis</span>",
     data: [
       {
@@ -18,6 +18,7 @@ function App() {
         headerBg: "#8A6AD8",
         headerIconColor: "#000",
         shadowColor: "#000",
+        borderColor: "#000",
       },
       {
         icon: icon,
@@ -27,6 +28,7 @@ function App() {
 
         headerBg: "#FF9772",
         headerIconColor: "#000",
+        borderColor: "#000",
         shadowColor: "#000",
       },
       {
@@ -37,6 +39,7 @@ function App() {
         headerBg: "#8A6AD8",
         headerIconColor: "#000",
         shadowColor: "#000",
+        borderColor: "#000",
       },
       {
         icon: icon,
@@ -45,6 +48,7 @@ function App() {
         headerBg: "#FF9772",
         headerIconColor: "#000",
         shadowColor: "#000",
+        borderColor: "#000",
       },
     ],
   });
@@ -55,7 +59,6 @@ function App() {
 
         "--textColor": allData.textColor,
         "--numberColor": allData.numberColor,
-        "--borderColor": allData.borderColor,
 
         fontFamily: allData.fontFamily,
       }}
